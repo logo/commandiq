@@ -1,21 +1,2 @@
-
-/**
- * CommandIQ logo.
- */
-
-.logo[data-logo="CommandIQ"] {
-  width: 5.288896186282558em;
-}
-
-.logo[data-logo="CommandIQ"] > * {
-  background-image: url(images/logo.svg);
-  margin: .185em 0 .185em -.05em;
-}
-
-.logo[data-logo="CommandIQ"][data-color="black"] > * {
-  background-image: url(images/logo-black.svg);
-}
-
-.logo[data-logo="CommandIQ"][data-color="white"] > * {
-  background-image: url(images/logo-white.svg);
-}
+@import 'logo/logo';
+@import './style';
